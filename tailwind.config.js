@@ -7,10 +7,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-section": "url('./password.webp')",
+        "hero-section": "url('/assets/password.webp')",
       }
     },
   },
   plugins: [],
 }
-
