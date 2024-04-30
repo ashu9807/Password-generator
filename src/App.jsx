@@ -42,7 +42,7 @@ const copypasswordtoclipboard=useCallback(()=>{
 
   return (
     <>
-    <div className='bg-red-900 w-full h-screen'>
+    <div className=' w-full h-screen'>
 
     <div className='hero-section w-full !overflow-hidden h-full border-4 bg-hero-section bg-no-repeat bg-center bg-cover'>
     <div className='  w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-#00094A'>
