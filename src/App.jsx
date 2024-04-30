@@ -42,8 +42,11 @@ const copypasswordtoclipboard=useCallback(()=>{
 
   return (
     <>
-    <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-gray-700'>
-      <h1 className='text-white text-center p-4 m-4  uppercase'>Password Generator</h1>
+    <div className='bg-red-900 w-full h-screen'>
+
+    <div className='hero-section w-full !overflow-hidden h-full border-4 bg-hero-section bg-no-repeat bg-center bg-cover'>
+    <div className='  w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-#00094A'>
+      <h1 className='text-white text-center p-4 m-4 font-bold uppercase text-3xl'>Password Generator</h1>
       <div className='flex shadow rounded-lg overflow-hidden mb-4 '> 
     <input
      type="text"
@@ -59,7 +62,7 @@ const copypasswordtoclipboard=useCallback(()=>{
       copy
      </button>
      </div>
-     <div className='flex text-sm gap-x-1 py-2 py-4'>
+     <div className='flex text-sm gap-x-1  py-4'>
       <div className='flex items-center gap-x-1'>
          <input 
               type="range" 
@@ -97,6 +100,8 @@ const copypasswordtoclipboard=useCallback(()=>{
      
     </div>
     </div> 
+    </div>
+    </div>
     </>
   )
 }
